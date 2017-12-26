@@ -8,21 +8,21 @@
 
 ### 常见问题：
 
-- 问：提示 “Not allowed to ... already several users on the device”
+**- 问：提示 “Not allowed to ... already several users on the device”**
 - 答：第 2 步的多用户没删干净，请删除或关闭所有多用户/访客模式/应用双开。
 
-- 问：提示 “Not allowed to ... already several accounts on the device”
+**- 问：提示 “Not allowed to ... already several accounts on the device”**
 - 答：第 1 步的账户没删干净，请注销您手机上所有的账户，包括 Google 账号和系统自带的如小米账户、三星账户等。
 
-- 问：提示 “Trying to set the device owner, but device owner is already set”
+**- 问：提示 “Trying to set the device owner, but device owner is already set”**
 - 答：您已设置过其他应用使用了设备管理员模式，请取消其他应用的设置。
 
-- 问：MIUI 用户提示 “Neither user xxx nor current process has android.permission.MANAGE_DEVICE_ADMINS”
+**- 问：MIUI 用户提示 “Neither user xxx nor current process has android.permission.MANAGE_DEVICE_ADMINS”**
 - 答：MIUI 用户请手动在系统设置- 开发者设置里，开启「USB 调试（安全设置）」。
 
-- 问：设置完成后手机通知栏出现提示「手机被管理」，这是正常的吗？
+**- 问：设置完成后手机通知栏出现提示「手机被管理」，这是正常的吗？**
 - 答：正常的，这正是黑洞的免 Root 工作原理。
 
-- 问：我不想用了，怎么卸载黑洞？
+**- 问：我不想用了，怎么卸载黑洞？**
 - 答：请先取消隐藏掉所有应用，然后到黑洞设置里点击「卸载」即可。
 
