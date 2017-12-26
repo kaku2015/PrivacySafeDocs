@@ -8,16 +8,16 @@
 
 ### FAQ
 
-**- Q: It shows "Not allowed to ... already several users on the device"**
+- **Q: It shows "Not allowed to ... already several users on the device"**
 - A: Please follow step 2 and remove the guest mode.
 
-**- Q: It shows "Trying to set the device owner, but device owner is already set"**
+- **Q: It shows "Trying to set the device owner, but device owner is already set"**
 - A: You have set up other app using Device Owner mode, please cancel the settings of other app.
 
-**- Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
+- **Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
 - A: That is how BlackHole works.
 
-**- Q: How to uninstall BlackHole?**
+- **Q: How to uninstall BlackHole?**
 - A: Just select "Uninstall" in the settings of BlackHole.
 
 
