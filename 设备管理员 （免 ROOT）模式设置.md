@@ -1,6 +1,6 @@
 ### 设备管理员 （免 ROOT）模式设置方法
 
-1. 首先确保您的手机 Android 版本大于等于 5.0，并且您已经知道如何操作 [ADB](https://sspai.com/post/23509) 命令。
+1. 首先确保您的手机 Android 版本大于等于 5.0，并且您已经知道如何操作 [ADB](https://jingyan.baidu.com/article/7f41ecec349c0f593d095c84.html) 命令。
 2. 进入手机「设置 > 帐户」，删除 **所有** 的帐户，包括你的 Google 帐户（之后可以再登录回来）。
 3. 如果您之前设置过多用户或手机自带访客模式、应用双开等，也需要一并关闭或删除（之后可以打开）。
 4. 在电脑上执行（手机终端模拟器不行） adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver 
