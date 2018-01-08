@@ -3,7 +3,7 @@
 1. Make sure your phone running Android  5.0+ and you know how to use [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) clearly.
 2. Go to "Settings > Accounts", remove **all accounts** including your Google account.
 3. If multi-user or guest mode has been set on your device, also need to be closed or deleted
-4. Run "adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver " on your computer.
+4. Run ```adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` on your computer.
 5. If you see the words Success, you can open the PrivacySafe to use (may need to restart your phone) , then you can add your accounts and guest mode back.
 
 ### FAQ

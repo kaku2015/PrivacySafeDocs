@@ -4,11 +4,11 @@
 
 1. 首先确保您的手机 Android 版本大于等于 5.0，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。
 2. 解压缩下载好的 ADB 压缩包，并进入到 adb 所在目录（platform-tools 目录）。
-3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”，请使用“.\adb”代替下面执行命令里的“adb”（复制指令时，请删除重复的“adb”）。
-4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“adb”（复制指令时，请删除重复的“adb”）
+3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”。
+4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“.\adb”（复制指令时，请删除重复的“adb”）
 5. 进入手机「设置 > 帐户」，删除 **所有** 的帐户，包括你的 Google 帐户（之后可以再登录回来）。
 6. 如果您之前设置过多用户或手机自带访客模式、应用双开等，也需要一并关闭或删除（之后可以打开）。
-7. 在电脑上执行命令： ```adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` 
+7. 在电脑上执行命令： ```.\adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` 
 8. 如果显示 Success 之类的字样，即可打开第二空间使用了（可能需要重启您的手机），也可以把之前删除的帐号加回来了。
 
 ### 常见问题：
