@@ -2,7 +2,7 @@
 ※通过设置设备管理员模式可以免 ROOT 使用应用隐藏功能。 
 
 
-1. 首先确保您的手机 Android 版本大于等于 5.0，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。
+1. 确保您的手机 Android 版本大于等于 5.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。
 2. 解压缩下载好的 ADB 压缩包，并进入到 adb 所在目录（platform-tools 目录）。
 3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”。
 4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“.\adb”（复制指令时，请删除重复的“adb”）
@@ -13,11 +13,15 @@
 
 ### 常见问题：
 
+- **问：提示 “no devices/emulators found”**
+- 答：没有打开 USB 调试，或 USB 没有连接好。
+
 - **问：提示 “Not allowed to ... already several users on the device”**
-- 答：第 2 步的多用户没删干净，请删除或关闭所有多用户/访客模式/应用双开。
+- 答：第 6 步的多用户没删干净，请删除或关闭所有多用户/访客模式/应用双开。
 
 - **问：提示 “Not allowed to ... already several accounts on the device”**
-- 答：第 1 步的账户没删干净，请注销您手机上所有的账户，包括 Google 账号和系统自带的如小米账户、三星账户等。
+- 答：第 5 步的账户没删干净，请注销您手机上所有的账户，包括 Google 账号和系统自带的如小米账户、三星账户等。
+</br>补充:如已确定删除了所有账户还是提示存在账户，可使用命令 ```adb shell pm list users``` 查看账户后，使用命令 ```adb shell pm remove-user 用户id``` 删除账户
 
 - **问：提示 “Trying to set the device owner, but device owner is already set”**
 - 答：您已设置过其他应用使用了设备管理员模式，请取消其他应用的设置。
