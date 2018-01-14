@@ -21,13 +21,16 @@
 
 - **问：提示 “Not allowed to ... already several accounts on the device”**
 - 答：第 5 步的账户没删干净，请注销您手机上所有的账户，包括 Google 账号和系统自带的如小米账户、三星账户等。
-</br>补充:如已确定删除了所有账户还是提示存在账户，可使用命令 ```adb shell pm list users``` 查看账户后，使用命令 ```adb shell pm remove-user 用户id``` 删除账户
+</br>**补充:如已确定删除了所有账户还是提示存在账户，可使用命令 ```adb shell pm list users``` 查看账户后，使用命令 ```adb shell pm remove-user 用户id``` 删除账户。**
 
 - **问：提示 “Trying to set the device owner, but device owner is already set”**
 - 答：您已设置过其他应用使用了设备管理员模式，请取消其他应用的设置。
 
 - **问：MIUI 用户提示 “Neither user xxx nor current process has android.permission.MANAGE_DEVICE_ADMINS”**
 - 答：MIUI 用户请手动在系统设置- 开发者设置里，开启「USB 调试（安全设置）」。
+
+- **问：以上都操作后还是提示 “xxx”**
+- 答：请重启手机再尝试。
 
 - **问：设置完成后手机通知栏出现提示「手机被管理」，这是正常的吗？**
 - 答：正常的，这正是第二空间的免 Root 工作原理。
