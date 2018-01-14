@@ -8,11 +8,15 @@
 
 ### FAQ
 
+- **Q: It shows "no devices/emulators found"**
+- A: USB debugging is not turned on, or the USB is not connected properly..
+
 - **Q: It shows "Not allowed to ... already several users on the device"**
 - A: Please follow step 2 and remove the guest mode.
 
 - **Q: It shows "Trying to set the device owner, but device owner is already set"**
 - A: You have set up other app using Device Owner mode, please cancel the settings of other app.
+</br>**Added: You can use the command ```adb shell pm list users``` view the accounts, use the command ```adb shell pm remove-user user id``` to delete the account.**
 
 - **Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
 - A: That is how PrivacySafe works.
