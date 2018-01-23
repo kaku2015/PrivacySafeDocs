@@ -18,6 +18,12 @@
 - A: You have set up other app using Device Owner mode, please cancel the settings of other app.
 </br>**Added: You can use the command ```adb shell pm list users``` view the accounts, use the command ```adb shell pm remove-user user id``` to delete the account.**
 
+- **Q: It shows "Sets the given component as active admin..."**
+- A: Please reboot your phone.
+
+- **Q: After all the above operation still shows "xxx"**
+- A: Please reboot your phone.
+
 - **Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
 - A: That is how PrivacySafe works.
 
