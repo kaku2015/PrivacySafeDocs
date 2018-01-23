@@ -29,6 +29,9 @@
 - **问：MIUI 用户提示 “Neither user xxx nor current process has android.permission.MANAGE_DEVICE_ADMINS”**
 - 答：MIUI 用户请手动在系统设置- 开发者设置里，开启「USB 调试（安全设置）」。
 
+- **问：提示 “Sets the given component as active admin...”**
+- 答：请重启手机再尝试。
+
 - **问：以上都操作后还是提示 “xxx”**
 - 答：请重启手机再尝试。
 
