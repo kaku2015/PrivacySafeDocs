@@ -18,6 +18,9 @@
 - A: You have set up other app using Device Owner mode, please cancel the settings of other app.
 </br>**Added: You can use the command ```adb shell pm list users``` view the accounts, use the command ```adb shell pm remove-user user id``` to delete the account.**
 
+- **Q：After removing the account, you are prompted "Your administrator will not allow this change"**
+- A：Please remove the fingerprint and lock screen password before removing the account.
+
 - **Q: It shows "Sets the given component as active admin..."**
 - A: Please reboot your phone.
 

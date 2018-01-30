@@ -23,6 +23,9 @@
 - 答：第 5 步的账户没删干净，请注销您手机上所有的账户，包括 Google 账号和系统自带的如小米账户、三星账户等。
 </br>**补充：如已确定删除了所有账户还是提示存在账户，可使用命令 ```adb shell pm list users``` 查看账户后，使用命令 ```adb shell pm remove-user 用户id``` 删除账户。**
 
+- **问：移除账号后，提示 “您的管理员不允许进行此更改”**
+- 答：请先移除指纹及锁屏密码后再移除账号。
+
 - **问：提示 “Trying to set the device owner, but device owner is already set”**
 - 答：您已设置过其他应用使用了设备管理员模式，请取消其他应用的设置。
 
