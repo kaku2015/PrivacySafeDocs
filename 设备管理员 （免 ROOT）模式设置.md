@@ -7,7 +7,7 @@
 - 三星 S8+ Android8.0 激活 ADB 后可能会导致开机后提示被管理员锁定无法进入的问题，请谨慎激活。
 
 ### 激活步骤：
-1. 确保您的手机 Android 版本大于等于 5.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。[网盘下载](https://pan.baidu.com/s/1i6eDI2x) 密码：w5d1
+1. 确保您的手机 Android 版本大于等于 6.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。[网盘下载](https://pan.baidu.com/s/1i6eDI2x) 密码：w5d1
 2. 解压缩下载好的 ADB 压缩包，并进入到 adb 所在目录（platform-tools 目录）。
 3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”。
 4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“.\adb”（复制指令时，请删除重复的“adb”）
