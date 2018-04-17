@@ -1,13 +1,14 @@
 ### Device Owner (Non ROOT) Mode Setup
 
-※Notice:
+### Notice:
 - Due to limitations of the MIUI system such as Xiaomi, Hide App function may be invalid. Please activate it with caution.
 - The latest test version (354) of the Huawei EMUI system for non-intra-mobile push updates. After activating the ADB, there may be a problem that the mobile phone restarts and loses individual system apps. Please activate it with caution. If this problem occurs, uninstall the app and restart the phone to restore it.
 - Samsung S8+ Android8.0 may activate the ADB and it may cause the administrator to lock and inaccessible. Please activate it with caution.
 
+### Setup steps:
 1. Make sure your phone running Android  5.0+ and you know how to use [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) clearly.
 2. Go to "Settings > Accounts", remove **all accounts** including your Google account.
-3. If multi-user or guest mode has been set on your device, also need to be closed or deleted
+3. If multi-user or guest mode has been set on your device, also need to be closed or deleted.
 4. Run ```adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` on your computer.
 5. If you see the words Success, you can open the PrivacySafe to use (may need to restart your phone) , then you can add your accounts and guest mode back.
 
@@ -17,7 +18,7 @@
 - A: USB debugging is not turned on, or the USB is not connected properly.
 
 - **Q: It shows "Not allowed to ... already several accounts on the device"**
-A: Please follow step 2 and remove ALL accounts. PS: Pulling out SIM card may be required for Xperia and ZUK devices.
+- A: Please follow step 2 and remove ALL accounts. PS: Pulling out SIM card may be required for Xperia and ZUK devices.
 </br>**Added: You can use the command ```adb shell pm list users``` view the accounts, use the command ```adb shell pm remove-user user id``` to delete the account.**
 
 - **Q: It shows "Not allowed to ... already several users on the device"**

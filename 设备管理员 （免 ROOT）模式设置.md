@@ -1,11 +1,12 @@
 ### 设备管理员 （免 ROOT）模式设置方法
 ※通过设置设备管理员模式可以免 ROOT 使用应用隐藏功能，只需激活一次，重启无需再次激活，永久有效，除非将第二空间卸载。
 
-※注意事项：
+### 注意事项：
 - 受小米 MIUI 等系统的限制，隐藏应用功能可能会无效，请谨慎激活。
 - 华为 EMUI 系统非手机设置内推送更新的最新测试版本(354)，激活 ADB 后可能会出现手机重启丢失个别系统应用的问题，请谨慎激活。如出现此问题，卸载应用并重启手机后即可恢复。
 - 三星 S8+ Android8.0 激活 ADB 后可能会导致开机后提示被管理员锁定无法进入的问题，请谨慎激活。
 
+### 激活步骤：
 1. 确保您的手机 Android 版本大于等于 5.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。[网盘下载](https://pan.baidu.com/s/1i6eDI2x) 密码：w5d1
 2. 解压缩下载好的 ADB 压缩包，并进入到 adb 所在目录（platform-tools 目录）。
 3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”。
