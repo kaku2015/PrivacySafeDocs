@@ -1,7 +1,7 @@
 ### Device Owner (Non ROOT) Mode Setup
 
 ### Notice:
-- Due to limitations of the MIUI system such as Xiaomi, Hide App function may be invalid. Please activate it with caution.
+- Due to limitations of the MIUI system such as Xiaomi, Hide App feature may be invalid. Please activate it with caution.
 - The latest test version (354) of the Huawei EMUI system for non-intra-mobile push updates. After activating the ADB, there may be a problem that the mobile phone restarts and loses individual system apps. Please activate it with caution. If this problem occurs, uninstall the app and restart the phone to restore it.
 - After Samsung S8+ Android8.0 activates ADB, it may cause the administrator to lock and inaccessible after booting. Please activate it with caution.
 
