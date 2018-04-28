@@ -2,7 +2,7 @@
 
 - **Q: What can I do if I fail to launch from dialer.**
 - A: 
-</br>Option 1.Visit file:///sdcard/.privacy_safe/privacy_safe.html in the browser.
+</br>Option 1.Visit <file:///sdcard/.privacy_safe/privacy_safe.html> or <http://htmlpreview.github.io/?https://github.com/kaku2015/PrivacySafeDocs/blob/master/privacy_safe.html> in the browser.
 </br>Option 2.Visit here:Settings -> Apps -> PrivacySafe -> Storage -> Manage Space.
 
 - **Q: App Lock does not work.**
@@ -24,14 +24,20 @@
 - **Q: Unable to install/uninstall apps.**
 - A: You may have enabled the "Install/Uninstall Defend" feature, please disable the "Install/Uninstall Defend" feature and then install/uninstall.
 
+- **Q: Unable to uninstall PrivacySafe.**
+- A: Just select "Uninstall" in the settings of PrivacySafe.
+
+- **Q: Hide/unhide/open app keeps waiting.**
+- A: Please open the root management app, ensure it is running in the background, and grant PrivacySafe root privileges.
+
 - **Q: The location of the encrypted files.**
 - A: The storage path for the encrypted file is located in the .privacy_safe folder of your device's root directory (the folder is a hidden folder), do not delete any files under that folder.
 
 - **Q: How to move my files to new device.**
 - A: 
-</br>Backup：
+</br>**Backup:**
 </br>Copy the .privacy_safe folder in the device root directory to your computer or other storage media.
-</br>Restore：
+</br>**Restore:**
 </br>1.If your new device has installed PrivacySafe, please restore or export all files to avoid losing.
 </br>2.Copy the .privacy_safe folder to the root directory of your new device.
 </br>3.Start PrivacySafe.
@@ -51,35 +57,8 @@
 - **Q: The accessibility feature switch is turned off unexpectedly.**
 - A: Please add PrivacySafe to the lock screen cleanup whitelist and do not clean up the app and allow the app auto-launch.
 
-- **Q: **
-- A: 
+- **Q: Cannot enter the PrivacySafe by long press title from the disguise interface.**
+- A: This means that you have turned on the switch that Prohibit Unlocking by Long Press Title. At this point, you can open the PrivacySafe by entering the PIN (if the current unlocking mode is Time PIN, enter the Time PIN and note the Time PIN is 24-hour format) and long press the calculation result button. If the fingerprint lock is on, use your fingerprint to unlock it. If none of the above methods work, use a system browser to access the website <http://htmlpreview.github.io/?https://github.com/kaku2015/PrivacySafeDocs/blob/master/privacy_safe.html> or dial the number by phone , After dialing "#1111 (default)" to start the PrivacySafe, check the relevant settings or disable the Prohibit Unlocking by Long Press Title.
 
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
-
-- **Q: **
-- A: 
+- **Q: It shows "The account has been bound with another device, please unbind first"**
+- A: The same account can only log in on the same device at the same time. The abnormal brushing can causes the IMEI to change, please unbind it before flashing or logging in on other devices.
