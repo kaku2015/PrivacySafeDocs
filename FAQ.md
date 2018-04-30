@@ -24,11 +24,14 @@
 - **Q: Unable to install/uninstall apps.**
 - A: You may have enabled the "Install/Uninstall Defend" feature, please disable the "Install/Uninstall Defend" feature and then install/uninstall.
 
-- **Q: Unable to uninstall PrivacySafe.**
+- **Q: How to uninstall PrivacySafe in Device Owner mode?**
 - A: Just select "Uninstall" in the settings of PrivacySafe.
 
 - **Q: Hide/unhide/open app keeps waiting.**
 - A: Please open the root management app, ensure it is running in the background, and grant PrivacySafe root privileges.
+
+- **Q: It shows "Failure to get root permission"**
+- A: Please make sure your device has been rooted then grant root permissions.
 
 - **Q: The location of the encrypted files.**
 - A: The storage path for the encrypted file is located in the .privacy_safe folder of your device's root directory (the folder is a hidden folder), do not delete any files under that folder.
