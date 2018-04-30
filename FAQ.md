@@ -66,6 +66,6 @@
 - **Q: It shows "The account has been bound with another device, please unbind first"**
 - A: The same account can only log in on the same device at the same time. The abnormal brushing can causes the IMEI to change, please unbind it before flashing or logging in on other devices.
 
-- **Q: Huawei EMUI system, individual system applications disappear after activating ADB.**
+- **Q: Huawei EMUI system, individual system apps disappear after activating ADB.**
 - A: This is caused by a bug in the latest version (more than 341) of the EMUI system. The solution to this problem is to hide the missing app and then unhide it. You can also restore after uninstalling the app and restarting your phone.
 

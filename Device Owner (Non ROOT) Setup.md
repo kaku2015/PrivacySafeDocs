@@ -36,7 +36,7 @@
 - **Q: After all the above operation still shows "xxx"**
 - A: Please reboot your phone.
 
-- **Q: Huawei EMUI system, individual system applications disappear after activating ADB.**
+- **Q: Huawei EMUI system, individual system apps disappear after activating ADB.**
 - A: This is caused by a bug in the latest version (more than 341) of the EMUI system. The solution to this problem is to hide the missing app and then unhide it. You can also restore after uninstalling the app and restarting your phone.
 
 - **Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
