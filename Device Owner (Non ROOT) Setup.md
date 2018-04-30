@@ -2,7 +2,7 @@
 
 ### Notice:
 - Due to limitations of the MIUI system such as Xiaomi, Hide App feature may be invalid. Please activate it with caution.
-- The latest test version (354) of the Huawei EMUI system for non-intra-mobile push updates. After activating the ADB, there may be a problem that the mobile phone restarts and loses individual system apps. Please activate it with caution. If this problem occurs, uninstall the app and restart the phone to restore it.
+- The latest version of the Huawei EMUI system (341 or above) may cause mobile phone restart and lose individual system apps after activating ADB. This is caused by the latest version of the EMUI bug. Please activate it with caution. The solution after this problem occurs: Hide the missing apps and unhide it. You can also restore after uninstalling the app and restarting your phone.
 - After Samsung S8+ Android8.0 activates ADB, it may cause the administrator to lock and inaccessible after booting, and may cause problems such as facial recognition unusable. Please activate it with caution.
 
 ### Setup steps:
@@ -35,6 +35,9 @@
 
 - **Q: After all the above operation still shows "xxx"**
 - A: Please reboot your phone.
+
+- **Q: Huawei EMUI system, individual system applications disappear after activating ADB.**
+- A: This is caused by a bug in the latest version (more than 341) of the EMUI system. The solution to this problem is to hide the missing app and then unhide it. You can also restore after uninstalling the app and restarting your phone.
 
 - **Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
 - A: That is how PrivacySafe works.
