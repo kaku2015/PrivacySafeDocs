@@ -36,7 +36,7 @@
 - 答：您已设置过其他应用使用了设备管理员模式，请取消其他应用的设置。
 
 - **问：MIUI 用户提示 “Neither user xxx nor current process has android.permission.MANAGE_DEVICE_ADMINS”**
-- 答：MIUI 用户请手动在系统设置- 开发者设置里，开启「USB 调试（安全设置）」。
+- 答：MIUI 用户请手动在系统设置- 开发者设置里，开启「USB 调试（安全设置）」。如果提示无法打开安全设置，请先登录小米账户(不要同步云)后再打开安全设置，安全设置开启后请退出小米账户。
 
 - **问：提示 “Sets the given component as active admin...”**
 - 答：请重启手机再尝试。
