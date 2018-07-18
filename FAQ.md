@@ -5,7 +5,7 @@
 </br>Option 1.Visit <file:///sdcard/.privacy_safe/privacy_safe.html> or <http://htmlpreview.github.io/?https://github.com/kaku2015/PrivacySafeDocs/blob/master/privacy_safe.html> in the browser.
 </br>Option 2.Visit here:Settings -> Apps -> PrivacySafe -> Storage -> Manage Space.
 
-- **Q: Why does the photo still exist in the phone album after it is added to the PrivacySafe**
+- **Q: Why does the photo still exist in the phone album after it is added to the PrivacySafe.**
 - A: Some mobile phones have a system built-in cloud synchronization services, such as Huawei, Xiaomi and so on. When you add a photo or video to the PrivacySafe, the source file will be automatically deleted by the PrivacySafe. However, when cloud services are turned on and allow automatic synchronization, they are automatically recovered from the phone cloud. After adding photos or videos to the PrivacySafe, go to the system album and wait a few seconds, when the files are restored, manually delete them.
 
 - **Q: App Lock does not work.**
