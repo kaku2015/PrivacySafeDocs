@@ -6,7 +6,7 @@
 </br>Option 2.Visit here:Settings -> Apps -> PrivacySafe -> Storage -> Manage Space.
 
 - **Q: Why does the photo still exist in the phone album after it is added to the PrivacySafe**
-A: Some mobile phones have a system built-in cloud synchronization services, such as Huawei, Xiaomi and so on. When you add a photo or video to the PrivacySafe, the source file will be automatically deleted by the PrivacySafe. However, when cloud services are turned on and allow automatic synchronization, they are automatically recovered from the phone cloud. After adding photos or videos to the PrivacySafe, go to the system album and wait a few seconds, when the files are restored, manually delete them.
+- A: Some mobile phones have a system built-in cloud synchronization services, such as Huawei, Xiaomi and so on. When you add a photo or video to the PrivacySafe, the source file will be automatically deleted by the PrivacySafe. However, when cloud services are turned on and allow automatic synchronization, they are automatically recovered from the phone cloud. After adding photos or videos to the PrivacySafe, go to the system album and wait a few seconds, when the files are restored, manually delete them.
 
 - **Q: App Lock does not work.**
 - A: 
@@ -66,23 +66,23 @@ A: Some mobile phones have a system built-in cloud synchronization services, suc
 - **Q: Cannot enter the PrivacySafe by long press title from the disguise interface.**
 - A: This means that you have turned on the switch that Prohibit Unlocking by Long Press Title. At this point, you can open the PrivacySafe by entering the PIN (if the current unlocking mode is Time PIN, enter the Time PIN and note the Time PIN is 24-hour format) and long press the calculation result button. If the fingerprint lock is on, use your fingerprint to unlock it. If none of the above methods work, use a system browser to access the website <http://htmlpreview.github.io/?https://github.com/kaku2015/PrivacySafeDocs/blob/master/privacy_safe.html> or dial the number by phone , After dialing "#1111 (default)" to start the PrivacySafe, check the relevant settings or disable the Prohibit Unlocking by Long Press Title.
 
-- **Q: It shows "The account has been bound with another device, please unbind first"**
+- **Q: It shows "The account has been bound with another device, please unbind first."**
 - A: The same account can only log in on the same device at the same time. The abnormal brushing can causes the IMEI to change, please unbind it before flashing or logging in on other devices.
 
 - **Q: Huawei EMUI system, individual system apps disappear after activating ADB.**
 - A: This is caused by a bug in the latest version (more than 341) of the EMUI system. The solution to this problem is to hide the missing app and then unhide it. You can also restore after uninstalling the app and restarting your phone.
 
 - **Q: After re-entering the PrivacySafe, the encrypted files, hidden applications, etc. could not be found.**
-A: Please confirm the following points:
+- A: Please confirm the following points:
 </br>1. Confirm whether the fake password space was used.
 </br>2. Confirm that the login account is unique.
 </br>3. Confirm that the encrypted file has not been deleted. Please do not clean the encrypted file related to the PrivacySafe when using the cleaning application.
 
-- **Q: Is the file encrypted after uninstalling the application still exists?**
-A: As long as the encryption related files have not been actively deleted, will be automatically restored after reinstallation.
+- **Q: Is the file encrypted after uninstalling the application still exists.**
+- A: As long as the encryption related files have not been actively deleted, will be automatically restored after reinstallation.
 
 - **Q: Can I retrieve the file after it is lost.**
-A: If the encrypted file still exists, you can go to the application "settings > Restore and Export > Retrieve Lost Files" to retrieve.
+- A: If the encrypted file still exists, you can go to the application "settings > Restore and Export > Retrieve Lost Files" to retrieve.
 
 - **Q: App auto hide failure.**
-A: The App Auto Hide mode needs to ensure that the PrivacySafe runs in the background, if it is Root mode you also need to open the Root Management application to grant permissions.
+- A: The App Auto Hide mode needs to ensure that the PrivacySafe runs in the background, if it is Root mode you also need to open the Root Management application to grant permissions.
