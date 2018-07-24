@@ -3,7 +3,7 @@
 ### Notice:
 - Due to limitations of the MIUI system such as Xiaomi, Hide App feature may be invalid. Please activate it with caution.
 - The latest version of the Huawei EMUI system (341 or above) may cause mobile phone restart and lose individual system apps after activating ADB. This is caused by the latest version of the EMUI bug. Please activate it with caution. The solution after this problem occurs: Hide the missing apps and unhide it. You can also restore after uninstalling the app and restarting your phone.
-- After Samsung S8+ Android8.0 activates ADB, it may cause the administrator to lock and inaccessible after booting, and may cause problems such as facial recognition unusable. Please activate it with caution.
+- Please clear the lock screen password before Samsung S8+ Android8.0 is activated. After ADB is activated, it may cause the administrator to lock and inaccessible after booting, and may cause problems such as facial recognition unusable. Please activate it with caution.
 
 ### Setup steps:
 1. Make sure your phone running Android  6.0+ and you know how to use [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) clearly.
