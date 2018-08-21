@@ -31,23 +31,23 @@
 4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“.\adb”（复制指令时，请删除重复的“adb”）
 5. 进入手机「设置 > 帐户」，删除 **所有** 的帐户，包括你的 Google 帐户（之后可以再登录回来）。
 </br>**下面以华为手机为例：**
-</br>` 退出华为账户 `
+</br>退出华为账户
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_1.png)
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_2.png)
 
-` 删除多用户 `
+删除多用户
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_3.png)
 
-` 以下所有账户都需要删除 `
+以下所有账户都需要删除
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_4.png)
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_5.png)
 
-` 删除所有账户后如下 `
+删除所有账户后如下
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_6.png)
 
