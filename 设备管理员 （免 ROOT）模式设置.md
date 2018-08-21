@@ -20,36 +20,36 @@
 
 2. 解压缩下载好的 ADB 压缩包，并进入到 adb 所在目录（platform-tools 目录）。
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_2.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_2.png)
 
 3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”。
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_3.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_3.png)
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_4.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_4.png)
 
 4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“.\adb”（复制指令时，请删除重复的“adb”）
 5. 进入手机「设置 > 帐户」，删除 **所有** 的帐户，包括你的 Google 帐户（之后可以再登录回来）。
 </br>**下面以华为手机为例：**
 </br>` 退出华为账户 `
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_1.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_1.png)
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_2.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_2.png)
 
 ` 删除多用户 `
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_3.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_3.png)
 
 ` 以下所有账户都需要删除 `
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_4.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_4.png)
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_5.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_5.png)
 
 ` 删除所有账户后如下 `
 
-![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_6.jpg)
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_6.png)
 
 6. 如果您之前设置过多用户或手机自带访客模式、应用双开等，也需要一并关闭或删除（之后可以打开）。
 7. 在电脑上执行命令： ```.\adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` 
