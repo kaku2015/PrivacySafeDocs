@@ -7,10 +7,37 @@
 
 ### Setup steps:
 1. Make sure your phone running Android  6.0+ and you know how to use [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) clearly.
+</br>[Click here to view the ADB tutorial](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 2. Go to "Settings > Accounts", remove **all accounts** including your Google account.
+</br>**Take Huawei mobile phone as an example:**
+</br>` Exit Huawei account `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_1.jpg)
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_2.jpg)
+
+` Delete multiple users `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_3.jpg)
+
+` All of the following accounts need to be deleted `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_4.jpg)
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_5.jpg)
+
+` After deleting all accounts as follows `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_6.jpg)
+
 3. If multi-user or guest mode has been set on your device, also need to be closed or deleted.
 4. Run ```adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` on your computer.
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/cmd_1.png)
+
 5. If you see the words Success, you can open the PrivacySafe to use (may need to restart your phone) , then you can add your accounts and guest mode back.
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/cmd_2.png)
 
 ### FAQ
 
