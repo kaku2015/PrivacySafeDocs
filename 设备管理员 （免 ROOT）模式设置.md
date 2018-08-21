@@ -5,7 +5,7 @@
 不同厂家的手机系统时常添加各种特色功能，因此其与设备管理员模式的兼容性或多或少存在一些问题，常见如下：
 - 受小米 MIUI 等系统的限制，隐藏应用功能可能会无效，请谨慎激活。
 - 华为 EMUI 系统最新版本(341以上)，激活 ADB 后可能会出现手机重启、个别系统应用启动图标（图库、手机管家）从桌面消失的问题，这是 EMUI 系统最新版本的 Bug 导致的，请谨慎激活。解决方法也很简单：将图标消失的应用隐藏再移出列表（取消隐藏）即可，或在第二空间内打开。卸载应用并重启手机后亦可恢复。
-- 三星 S8+ Android8.0 激活前请先解除锁屏密码，激活 ADB 后可能会导致开机后提示被管理员锁定无法进入，并且可能会导致面部识别无法使用等问题，请谨慎激活。
+- 三星 S8+ Android8.0 激活前请先清除锁屏密码，激活 ADB 后可能会导致开机后提示被管理员锁定无法进入，并且可能会导致面部识别无法使用等问题，请谨慎激活。
 - 华为、锤子隐藏应用可能会弹出卸载提示，取消隐藏会弹出权限请求。
 - OPPO、VIVO通知栏会提示「设备管理员已开启，点击关闭」。
 - 无法隐藏应用分身。
@@ -13,13 +13,52 @@
 
 ### 激活步骤：
 1. 确保您的手机 Android 版本大于等于 6.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。[网盘下载](https://pan.baidu.com/s/1i6eDI2x) 密码：w5d1
+</br>[点击这里](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)查看打开USB调试教程
+</br>PS：手机第一次与PC连接，打开USB调试开关后，正常会弹出授权窗口，勾选后点击确认即可。如果始终无法连接(不弹出授权窗口)，可以尝试打开PC上的360手机助手与手机正常连接后再关闭360手机助手。
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_1.jpg)
+
 2. 解压缩下载好的 ADB 压缩包，并进入到 adb 所在目录（platform-tools 目录）。
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_2.jpg)
+
 3. （Windows）按住 Shift 键，并在空白处点击鼠标右键，选择“在此处打开命令窗口”。
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_3.jpg)
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/adb_4.jpg)
+
 4. （macOS）打开 Finder，进入“应用程序”，进入“实用工具”，打开“终端”，把“adb”拖到“终端”里，请使用这个带全路径的“adb”代替下面执行命令里的“.\adb”（复制指令时，请删除重复的“adb”）
 5. 进入手机「设置 > 帐户」，删除 **所有** 的帐户，包括你的 Google 帐户（之后可以再登录回来）。
+</br>**下面以华为手机为例：**
+</br>` 退出华为账户 `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_1.jpg)
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_2.jpg)
+
+` 删除多用户 `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_3.jpg)
+
+` 以下所有账户都需要删除 `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_4.jpg)
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_5.jpg)
+
+` 删除所有账户后如下 `
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/delete_account_6.jpg)
+
 6. 如果您之前设置过多用户或手机自带访客模式、应用双开等，也需要一并关闭或删除（之后可以打开）。
 7. 在电脑上执行命令： ```.\adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` 
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/cmd_1.png)
+
 8. 如果显示 Success 之类的字样，即可打开第二空间使用了（可能需要重启您的手机），也可以把之前删除的帐号加回来了。
+
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/cmd_2.png)
 
 ### 常见问题：
 
