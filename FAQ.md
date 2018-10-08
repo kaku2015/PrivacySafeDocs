@@ -3,9 +3,6 @@
 - **Q: How to use.**
 - A: Introduction on how to use PrivacySafe: https://youtu.be/1XQ_Q0iZaRE.
 
-- **Q: How to hide the app.**
-- A: Non-root device if you want to use the hide app feature, you need to activate according to the tutorial：http://t.cn/Rds7Cs9.
-
 - **Q: Forget password.**
 - A: If you have set security question, you can retrieve the password through it, 
 or if you have already registered an account, you can retrieve it by verifying your account email.
