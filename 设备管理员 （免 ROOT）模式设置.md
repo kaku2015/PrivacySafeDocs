@@ -54,7 +54,7 @@
 
 6. 如果您之前设置过多用户或手机自带访客模式、应用双开等，也需要一并关闭或删除（之后可以打开）。
 7. 在电脑上执行命令： ```.\adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` 
-</br>**请注意这里一定要使用与应用相对应的adb命令，截图只是示例**
+</br>**请注意这里一定要使用以上命令，截图只是示例**
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images-zh/cmd_1.png)
 
