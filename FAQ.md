@@ -9,7 +9,7 @@
 - **Q: Forget password.**
 - A: If you have set security question, you can retrieve the password through it, 
 or if you have already registered an account, you can retrieve it by verifying your account email.
-Please click the "Forgot Password" button below the pattern password.
+Please click the "Forgot Password" button below the unlock password interface.
 
 - **Q: What can I do if I fail to launch from dialer.**
 - A: 
@@ -99,7 +99,7 @@ Please click the "Forgot Password" button below the pattern password.
 - A: The App Auto Hide mode needs to ensure that the PrivacySafe runs in the background, if it is Root mode you also need to open the Root Management application to grant permissions.
 
 - **Q: How to recover files.**
-- A: Long press on the encrypted file will enter the edit mode, you can restore it by using the restore button in the action bar..
+- A: Long press on the encrypted file will enter the edit mode, you can restore it by using the restore button in the action bar.
 
 - **Q: Reason for the original photos being deleted.**
 - A: For privacy reasons, your original photos will be deleted after the photos are encrypted. You can restore the photos with the restore option.
