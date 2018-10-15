@@ -82,9 +82,10 @@ Please click the "Forgot Password" button below the unlock password interface.
 
 - **Q: After re-entering the PrivacySafe, the encrypted files, hidden applications, etc. could not be found.**
 - A: Please confirm the following points:
-</br>1. Confirm whether the fake password space was used.
-</br>2. Confirm that the login account is unique.
-</br>3. Confirm that the encrypted file has not been deleted. Please do not clean the encrypted file related to the PrivacySafe when using the cleaning application.
+</br>1. If you reinstall the app after uninstalling, make sure the unlock password is the same as before.
+</br>2. If you sign up for an account, confirm that the login account is unique.
+</br>3. Confirm whether the fake password space was used.
+</br>4. Confirm that the encrypted file has not been deleted. Please do not clean the encrypted file related to the PrivacySafe when using a cleaning application.
 
 - **Q: Is the file encrypted after uninstalling the application still exists.**
 - A: As long as the encryption related files have not been actively deleted, will be automatically restored after reinstallation.
