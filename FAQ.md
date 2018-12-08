@@ -1,11 +1,11 @@
 ### FAQ
 
 - **Q: How to use.**
-- A: Introduction on how to use PrivacySafe: https://youtu.be/1XQ_Q0iZaRE.
+- A: Long press the title of the "Calculator" to open.
+</br>Introduction on how to use PrivacySafe: https://youtu.be/1XQ_Q0iZaRE.
 
 - **Q: Forget password.**
-- A: Long press the title of the "Calculator" to open.
-</br>If you have set security question, you can retrieve the password through it, 
+- A: If you have set security question, you can retrieve the password through it, 
 or if you have already registered an account, you can retrieve it by verifying your account email.
 </br>Please click the "Forgot Password" button below the unlock password interface.
 
