@@ -48,12 +48,12 @@ or if you have already registered an account, you can retrieve it by verifying y
 - A: Please make sure your device has been rooted then grant root permissions.
 
 - **Q: The location of the encrypted files.**
-- A: The storage path for the encrypted file is located in the **.privacy_safe** folder of your device's root directory (The folder is a hidden folder, you need to open the show hidden file switch to view), do not delete any files under that folder.
+- A: The storage path for the encrypted file is located in the **.privacy_safe** folder of your device's root directory (The folder is a hidden folder, you need to open the show hidden file switch to view, please note that its case is not a PrivacySafe folder.), do not delete any files under that folder.
 
 - **Q: How to move my files to new device.**
 - A: 
 </br>**Backup:**
-</br>Copy the **.privacy_safe** folder in the device root directory (The folder is a hidden folder, you need to open the show hidden file switch to view) to your computer or other storage media.
+</br>Copy the **.privacy_safe** folder in the device root directory (The folder is a hidden folder, you need to open the show hidden file switch to view, please note that its case is not a PrivacySafe folder.) to your computer or other storage media.
 </br>**Restore:**
 </br>1.If your new device has installed PrivacySafe, please restore or export all files to avoid losing.
 </br>2.Copy the **.privacy_safe** folder to the root directory of your new device.
