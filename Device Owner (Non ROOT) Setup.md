@@ -48,6 +48,8 @@
 - A: Please follow step 2 and remove ALL accounts. PS: Pulling out SIM card may be required for Xperia and ZUK devices.
 </br>**Added: You can use the command ```adb shell pm list users``` view the accounts, use the command ```adb shell pm remove-user user id``` to delete the account.**
 
+![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account.png)
+
 - **Q: It shows "Not allowed to ... already several users on the device"**
 - A: Please follow step 3 and remove the guest mode or multi app/private mode.
 
