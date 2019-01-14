@@ -30,6 +30,8 @@
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_6.jpg)
 
+It is recommended that the phone remain on this account interface, as some apps will be automatically added back soon after the account is deleted, ensuring that the account is not automatically added before activation.
+
 3. If multi-user or guest mode has been set on your device, also need to be closed or deleted.
 4. Run ```adb shell dpm set-device-owner com.hld.anzenbokusu/.receiver.DPMReceiver``` on your computer.
 
