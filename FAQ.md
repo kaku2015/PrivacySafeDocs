@@ -21,7 +21,7 @@ or if you have already registered an account, you can retrieve it by verifying y
 - A: This problem will occur when the photo or video is not automatically scanned into the system media library.
 </br>The solution is as follows:
 </br>1. After browsing the folder where the photo or video is located, it will automatically be scanned into the system media library automatically. At this time, the photo or video will be displayed when you add it.
-</br>2. When adding, select another method (All Files) and find the path where the file is located.
+</br>2. Select All File method when adding, find the path where the file is located.
 </br>3. Add by file sharing in the file manager.
 
 - **Q: App Lock does not work.**
