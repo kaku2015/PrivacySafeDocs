@@ -105,6 +105,7 @@ or if you have already registered an account, you can retrieve it by verifying y
 
 - **Q: Can I retrieve the file after it is lost.**
 - A: If the encrypted file still exists, you can go to the application "settings > Restore and Export > Retrieve Lost Files" to retrieve.
+https://github.com/kaku2015/PrivacySafeDocs/blob/master/lost_file.md
 
 - **Q: App auto hide failure.**
 - A: The App Auto Hide mode needs to ensure that the PrivacySafe runs in the background, if it is Root mode you also need to open the Root Management application to grant permissions.
