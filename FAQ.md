@@ -2,7 +2,6 @@
 
 - **Q: How to use.**
 - A: Long press the title of the "Calculator" to open.
-</br>Introduction on how to use PrivacySafe: https://youtu.be/1XQ_Q0iZaRE.
 
 - **Q: Forget password.**
 - A: If you have set security question, you can retrieve the password through it, 
