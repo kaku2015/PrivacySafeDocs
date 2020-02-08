@@ -2,7 +2,7 @@
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/1.png)
 
- 1.If the encrypted file still exists, you can go to the application's "settings > Restore and Export > Retrieve Lost Files" to retrieve.
+ 1.If the encrypted file still exists, you can go to the application's "settings > Retrieve Lost Files" to retrieve.
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/2.png)
 
