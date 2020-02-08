@@ -19,4 +19,4 @@
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/5.png)
 
 5.完成后，加密文件会被解密到设备根目录中的PrivacySafe/LostFileRestore文件夹中。
-<br><br>※重要提示：由于应用在文件加密之前无法知道其扩展名，因此请自行修改文件扩展名。 例如，将图片的扩展名更改为.png格式，并将视频扩展名更改为.mp4格式。
+<br><br>※重要提示：由于应用在文件加密之前无法知道其扩展名，因此请自行修改文件扩展名。 例如，将图片的扩展名更改为.jpg格式，将视频扩展名更改为.mp4格式。
