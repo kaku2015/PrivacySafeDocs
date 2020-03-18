@@ -15,7 +15,7 @@
 - 华为、小米等自带的双开可能无法使用。
 
 ### 激活步骤：
-1. 确保您的手机 Android 版本大于等于 6.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。[网盘下载](https://pan.baidu.com/s/1i6eDI2x) 密码：w5d1
+1. 确保您的手机 Android 版本大于等于 6.0，打开了 [USB 调试](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)，并且您的电脑已下载好了 [ADB]( https://developer.android.google.cn/studio/releases/platform-tools.html) 工具包。
 </br>[点击这里](https://jingyan.baidu.com/article/0eb457e50b99d003f0a9055f.html)查看打开USB调试教程
 </br>PS：手机第一次与PC连接，打开USB调试开关后，正常会弹出授权窗口，勾选后点击确认即可。如果始终无法连接(不弹出授权窗口)，可以尝试打开PC上的360手机助手与手机正常连接后再关闭360手机助手。
 
