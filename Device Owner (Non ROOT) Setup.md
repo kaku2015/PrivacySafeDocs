@@ -37,7 +37,7 @@ It is recommended that the phone remain on this account interface, as some apps 
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/cmd_1.png)
 
-5. If you see the words Success, you can open the PrivacySafe to use (may need to restart your phone) , then you can add your accounts and guest mode back.
+5. If you see the words Success, you can open the Sgallery to use (may need to restart your phone) , then you can add your accounts and guest mode back.
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/cmd_2.png)
 
@@ -71,9 +71,9 @@ It is recommended that the phone remain on this account interface, as some apps 
 - A: This is caused by a bug in the latest version (more than 341) of the EMUI system. The solution to this problem is to hide the missing app and then unhide it. You can also restore after uninstalling the app and restarting your phone.
 
 - **Q: There is "Device is managed by your organization" on my notification center after setting up. Why?**
-- A: That is how PrivacySafe works.
+- A: That is how Sgallery works.
 
-- **Q: How to uninstall PrivacySafe?**
-- A: Just select "Uninstall" in the settings of PrivacySafe.
+- **Q: How to uninstall Sgallery?**
+- A: Just select "Uninstall" in the settings of Sgallery.
 
 
