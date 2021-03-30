@@ -15,7 +15,6 @@
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_1.jpg)
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_2.jpg)
-
 ` Delete multiple users `
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/images/delete_account_3.jpg)
