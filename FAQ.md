@@ -23,13 +23,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 </br>2. Select All File method when adding, find the path where the file is located.
 </br>3. Add by file sharing in the file manager.
 
-- **Q: App Lock does not work.**
-- A: 
-</br>1.The accessibility feature switch may be turned off unexpectedly, please turn on the accessibility feature switch.
-</br>2.If the Accessibility switch is turned on, turn it off and then turn on again.
-</br>3.If you reopen the Accessibility switch, it still does not work, try exiting the app and restarting it.
-</br>4.If you try the above method, still did not solve the problem, you need to restart your device.
-
 - **Q: "Intruder Selfie" feature does not work.**
 - A: 
 </br>1.Make sure "intruder Selfie" feature has been enabled.
@@ -40,9 +33,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 </br>6.Make sure that the system version is 6.0 or higher.
 </br>7.Confirm that the floating window permission is turned on.
 </br>8.Some systems (oppo, vivo, etc.) may not work.
-
-- **Q: Unable to install/uninstall apps.**
-- A: You may have enabled the "Install/Uninstall Defend" feature, please disable the "Install/Uninstall Defend" feature and then install/uninstall.
 
 - **Q: How to uninstall Sgallery in Device Owner mode?**
 - A: Just select "Uninstall" in the settings of Sgallery.
