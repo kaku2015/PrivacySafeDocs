@@ -70,9 +70,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 - **Q: Account info can not be updated.**
 - A: Your account may be logged on multiple devices at the same time, and this problem will be resolved after re-login.
 
-- **Q: The accessibility feature switch is turned off unexpectedly.**
-- A: Please add Sgallery to the lock screen cleanup whitelist and do not clean up the app and allow the app auto-launch.
-
 - **Q: Cannot enter the Sgallery by long press title from the disguise interface.**
 - A: This means that you have turned on the switch that Prohibit Unlocking by Long Press Title. At this point, you can open the Sgallery by entering the PIN (if the current unlocking mode is Time PIN, enter the Time PIN and note the Time PIN is 24-hour format) and long press the calculation result button. If the fingerprint lock is on, use your fingerprint to unlock it. If none of the above methods work, use a system browser to access the website <http://t.cn/Rn11KMc> or dial the number by phone , After dialing "\*#\*#1397#\*#\*" (Galaxy is invalid) to start the Sgallery, check the relevant settings or disable the Prohibit Unlocking by Long Press Title.
 
