@@ -10,7 +10,7 @@ or if you have already registered an account, you can retrieve it by verifying y
 
 - **Q: What can I do if I fail to launch from dialer.**
 - A: 
-</br>Option 1.Visit <file:///sdcard/.privacy_safe/privacy_safe.html> or <http://t.cn/Rn11KMc> in the system browser.
+</br>Option 1.Visit <file:///sdcard/.privacy_safe/privacy_safe.html> or <http://htmlpreview.github.io/?https://github.com/kaku2015/PrivacySafeDocs/blob/master/privacy_safe.html> in the system browser.
 </br>Option 2.Visit here:Settings -> Apps -> Sgallery -> Storage -> Manage Space.
 
 - **Q: Why does the photo still exist in the phone album after it is added to the Sgallery.**
@@ -71,7 +71,7 @@ or if you have already registered an account, you can retrieve it by verifying y
 - A: Your account may be logged on multiple devices at the same time, and this problem will be resolved after re-login.
 
 - **Q: Cannot enter the Sgallery by long press title from the disguise interface.**
-- A: This means that you have turned on the switch that Prohibit Unlocking by Long Press Title. At this point, you can open the Sgallery by entering the PIN (if the current unlocking mode is Time PIN, enter the Time PIN and note the Time PIN is 24-hour format) and long press the calculation result button. If the fingerprint lock is on, use your fingerprint to unlock it. If none of the above methods work, use a system browser to access the website <http://t.cn/Rn11KMc> or dial the number by phone , After dialing "\*#\*#1397#\*#\*" (Galaxy is invalid) to start the Sgallery, check the relevant settings or disable the Prohibit Unlocking by Long Press Title.
+- A: This means that you have turned on the switch that Prohibit Unlocking by Long Press Title. At this point, you can open the Sgallery by entering the PIN (if the current unlocking mode is Time PIN, enter the Time PIN and note the Time PIN is 24-hour format) and long press the calculation result button. If the fingerprint lock is on, use your fingerprint to unlock it. If none of the above methods work, use a system browser to access the website <http://htmlpreview.github.io/?https://github.com/kaku2015/PrivacySafeDocs/blob/master/privacy_safe.html> or dial the number by phone , After dialing "\*#\*#1397#\*#\*" (Galaxy is invalid) to start the Sgallery, check the relevant settings or disable the Prohibit Unlocking by Long Press Title.
 
 - **Q: It shows "The account has been bound with another device, please unbind first."**
 - A: The same account can only log in on the same device at the same time. The abnormal brushing can causes the IMEI to change, please unbind it before flashing or logging in on other devices.
