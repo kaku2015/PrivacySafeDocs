@@ -34,9 +34,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 </br>7.Confirm that the floating window permission is turned on.
 </br>8.Some systems (oppo, vivo, etc.) may not work.
 
-- **Q: How to uninstall Sgallery in Device Owner mode?**
-- A: Just select "Uninstall" in the settings of Sgallery.
-
 - **Q: The location of the encrypted files.**
 - A: The storage path for the encrypted file is located in the **.privacy_safe** folder of your device's root directory (The folder is a hidden folder, you need to open the show hidden file switch to view, please note that its case is not a Sgallery folder.), do not delete any files under that folder.
 
