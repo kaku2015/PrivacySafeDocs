@@ -37,12 +37,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 - **Q: How to uninstall Sgallery in Device Owner mode?**
 - A: Just select "Uninstall" in the settings of Sgallery.
 
-- **Q: Hide/unhide/open app keeps waiting.**
-- A: Please open the root management app, ensure it is running in the background, and grant Sgallery root privileges.
-
-- **Q: It shows "Failure to get root permission"**
-- A: Please make sure your device has been rooted then grant root permissions.
-
 - **Q: The location of the encrypted files.**
 - A: The storage path for the encrypted file is located in the **.privacy_safe** folder of your device's root directory (The folder is a hidden folder, you need to open the show hidden file switch to view, please note that its case is not a Sgallery folder.), do not delete any files under that folder.
 
@@ -76,9 +70,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 - **Q: It shows "The account has been bound with another device, please unbind first."**
 - A: The same account can only log in on the same device at the same time. The abnormal brushing can causes the IMEI to change, please unbind it before flashing or logging in on other devices.
 
-- **Q: Huawei EMUI system, individual system apps disappear after activating ADB.**
-- A: This is caused by a bug in the latest version (more than 341) of the EMUI system. The solution to this problem is to hide the missing app and then unhide it. You can also restore after uninstalling the app and restarting your phone.
-
 - **Q: After re-entering the Sgallery, the encrypted files, hidden applications, etc. could not be found.**
 - A: Please confirm the following points:
 </br>1. If you reinstall the app after uninstalling, make sure the unlock password is the same as before.
@@ -92,9 +83,6 @@ or if you have already registered an account, you can retrieve it by verifying y
 - **Q: Can I retrieve the file after it is lost.**
 - A: If the encrypted file still exists, you can go to the application "settings > Restore and Export > Retrieve Lost Files" to retrieve.
 https://github.com/kaku2015/PrivacySafeDocs/blob/master/lost_file.md
-
-- **Q: App auto hide failure.**
-- A: The App Auto Hide mode needs to ensure that the Sgallery runs in the background, if it is Root mode you also need to open the Root Management application to grant permissions.
 
 - **Q: How to recover files.**
 - A: Long press on the encrypted file will enter the edit mode, you can restore it by using the restore button in the action bar.
