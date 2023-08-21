@@ -1,2 +1,2 @@
-# Sgallery Documents
-The documents of Sgallery app. 
+lnbbnvccjj# PrivacySafeDocs
+The documents of Sgallery.
