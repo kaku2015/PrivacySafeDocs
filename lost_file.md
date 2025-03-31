@@ -6,11 +6,11 @@
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/2.png)
 
-2.The storage path for the encrypted file is located in the .privacy_safe folder of your device's root directory (The folder is a hidden folder, you need to open the show hidden file switch to view).
+2.The storage path for the encrypted file is located in the .privacy_safe folder in your internal storage (This folder may be hidden in some file managers. If you don’t see it, check your file manager settings to show hidden files).
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/3.png)
 
-3.Copy all the encrypted files to the LostFile folder located in the root directory of the device.
+3.Copy all the encrypted files to the LostFile folder in your internal storage.
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/4.png)
 
@@ -18,6 +18,6 @@
 
 ![image](https://github.com/kaku2015/PrivacySafeDocs/blob/master/LostFile/5.png)
 
-5.When it's finished, please go to the PrivacySafe/LostFileRestore folder in the root directory of the device. 
+5.When it's finished, please go to the PrivacySafe/LostFileRestore folder in your internal storage. 
 <br><br>※IMPORTANT: Since the app cannot know the extension before the file is encrypted, so please modify the file extension yourself. For example, change the image extension to a format such as .png, and change the video extension to a format such as .mp4.
 
